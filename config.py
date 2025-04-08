@@ -117,8 +117,8 @@ config = {
         'pip_url': 'https://pypi.org/simple/'
     }, {
         'name': 'China',
-        'git_url': 'https://cnb.cool/ok-oldking/ok-wuthering-waves.git',
-        'pip_url': 'https://mirrors.aliyun.com/pypi/simple'
+        'git_url': '',
+        'pip_url': ''
     }
     ]},
     'links': {
