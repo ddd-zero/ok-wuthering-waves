@@ -141,9 +141,6 @@ class BaseWWTask(BaseTask):
                 return None
         return f
 
-    def has_target(self):
-        return False
-
     def walk_to_yolo_echo(self, time_out=15, update_function=None):
         last_direction = None
         start = time.time()
@@ -154,9 +151,6 @@ class BaseWWTask(BaseTask):
                 self.log_debug('pick echo success')
                 self._stop_last_direction(last_direction)
                 return True
-            if self.has_target():
-                self.log_debug('pick echo has_target return fail')
-                return False
             echos = self.find_echos()
             if not echos:
                 if no_echo_start == 0:
