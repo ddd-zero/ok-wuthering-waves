@@ -94,7 +94,7 @@ class FarmWorldBossTask(WWOneTimeTask, BaseCombatTask):
                         dropped = self.yolo_find_echo(turn=False)[0]
                         self.incr_drop(dropped)
 
-            if count < 2:
+            if count == 2:
                 self.log_error('Must choose at least 2 Boss to Farm', notify=True)
                 return
 
