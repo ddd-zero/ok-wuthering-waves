@@ -118,12 +118,12 @@ config = {
     },
     'git_update': {'sources': [{
         'name': 'Global',
-        'git_url': 'https://github.com/ok-oldking/ok-ww-update.git',
-        'pip_url': 'https://pypi.org/simple/'
+        'git_url': '',
+        'pip_url': ''
     }, {
         'name': 'China',
-        'git_url': 'https://cnb.cool/ok-oldking/ok-wuthering-waves.git',
-        'pip_url': 'https://mirrors.aliyun.com/pypi/simple'
+        'git_url': '',
+        'pip_url': ''
     }
     ]},
     'links': {
